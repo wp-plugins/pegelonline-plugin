@@ -1,7 +1,7 @@
 === PegelOnline-Plugin ===
 Contributors: daburna
 Donate link: http://www.daburna.de/
-Tags: embedding, water level, water, water gage, GIS, Pegel, Gewässer, Fluß, Fluss, Meer, Hydrologie, hydrology, Geographie, geography, Wasser  
+Tags: embedding, water level, water, water gage, GIS, Pegel, Gewässer, Fluß, Fluss, Meer, Hydrologie, hydrology, Geographie, geography, Wasser, monitoring
 Requires at least: 2.0.0
 Tested up to: 2.7
 Stable tag: 0.0.2
