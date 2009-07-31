@@ -3,7 +3,7 @@
 Plugin Name: PegelOnline-Plugin
 Plugin URI: http://www.daburna.de/blog/2008/12/30/pegelonline-plugin/
 Description: Bindet den Pegelstand von Gewässern in deinen Blog ein.
-Version: 0.0.3
+Version: 0.0.4
 Author: Oliver Wunder 
 Author URI: http://www.daburna.de/
 
@@ -46,11 +46,16 @@ function ow_pegelonline_option_page() {
     <h2>PegelOnline-Plugin Optionen</h2>
     <p>
     Dies ist eine frühe Version des PegelOnline Plugins. Hiermit lassen sich aktuelle Pegelstände von Gewässern im Blog einbinden. Die Daten stammen von dem
-    gewässerkundlichen Informationssystem <a href="http://www.pegelonline.wsv.de/" title="PEGELONLINE"S>PEGELONLINE</a>.
-    Um das Plugin nutzen zu können, mußt du als erstes eine Pegelnummer eingeben. Diese findest du auf der Website von PEGELONLINE.
+    gewässerkundlichen Informationssystem <a href="http://www.pegelonline.wsv.de/" title="PEGELONLINE">PEGELONLINE</a>.
+    Um das Plugin nutzen zu können, mußt du als erstes eine Pegelnummer eingeben. Diese findest du in der <a href="http://www.pegelonline.wsv.de/gast/pegelinformationen" title="Liste aller verfügbaren Pegel">Liste aller verfügbaren Pegel</a>.
     </p>
     <p>
-    Mit dem folgendem Befehl kannst du nun den aktuellen Pegelstand in deinem Blog einbinden: <strong>&lt;?php if (function_exists('ow_pegelonline')) {  ow_pegelonline();} ?&gt</strong>    
+    Mit dem folgendem Befehl kannst du dann den aktuellen Pegelstand eines ausgewählten Gewässers in deinem Blog einbinden: <strong>&lt;?php if (function_exists('ow_pegelonline')) {  ow_pegelonline();} ?&gt</strong>    
+    </p>
+    <h3>Bekannte Bugs</h3>
+    <p>
+    	# Benutzer des Browsers Opera können Darstellungsprobleme haben, da die kleinste darstellbare Schriftgröße automatisch auf 9px festgelegt ist. Hier im Plugin kann sie aber auch kleiner gewählt werden. 
+    	Um das Problem zu beheben muss in Opera folgendes getan werden: Einstellungen - Erweitert - Schriften - kleinste Schriftgröße (in Pixel) von 9 auf 6 umstellen.   
     </p>
     <form name="form1" method="post" action="<?=$location ?>">
     <table>
