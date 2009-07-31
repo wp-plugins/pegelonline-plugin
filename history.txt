@@ -1,13 +1,3 @@
-07.01.2009 - v 0.0.3
----------
-+ Breite und Höhe konfigurierbar
+seit letztem Release
 
-31.12.2008 - v 0.0.2
----------
-+ Vorschau
-+ Überschrift
-+ Optionen in Tabellenform
-
-30.12.2008 v 0.0.1
-----------
-Initialzündung
+Changelog hinzugefügt
