@@ -28,7 +28,7 @@ An einer beliebigen Stelle im Blog <?php if (function_exists('ow_pegelonline')) 
 
 = 0.0.4 - 31.07.2009 =
 * Infotext überarbeitet
-+ Hinweis aus Probleme mit Opera
++ Hinweis auf Probleme mit Opera
 + Changelog hinzugefügt
 
 = 0.0.3 - 07.01.2009 =
